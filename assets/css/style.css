@@ -11,6 +11,30 @@ html {
   overflow: visible;
 }
 
+.logo-items{
+  display: flex;
+  flex-wrap: wrap;
+  width:100%
+}
+.logo-items .slide{
+  flex: 0 25%;
+  
+}
+.company-logo-title{
+  font-size: 20px;
+  text-align: center;
+  font-weight: 700;
+}
+.demo-wrapper .text{
+  font-size: 43px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.text-summary{
+  border-bottom: 1px solid black;
+  line-height: 1.6em;
+}
+
 body {
   font-family: 'Nunito', sans-serif;
   font-size: 15px;
@@ -4235,10 +4259,6 @@ ul.coading_box {
   margin-top: 15px;
 }
 
-/* ============================================================== 
-     # Testimonials 
-=================================================================== */
-
 .testimonials-area.default-padding {
   padding-bottom: 85px;
 }
@@ -6051,6 +6071,7 @@ ul.coading_box {
 .contact-area form input, .contact-area form textarea, .contact-area form select {
   border: none;
   border-bottom: 1px solid #e7e7e7;
+  background: none;
   border-radius: inherit;
   box-shadow: inherit;
   padding: 0px 15px;
@@ -6066,7 +6087,7 @@ ul.coading_box {
 
 .contact-area form button {
   border: none;
-  background: #ffffff;
+  background: #ffffff00;
   display: inline-block;
   padding: 10px 35px;
   text-transform: capitalize;
